@@ -1,0 +1,261 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>The 900 Order | Venture Incubator</title>
+  <!-- Tailwind CSS CDN -->
+  <script src="https://cdn.tailwindcss.com"></script>
+  <script>
+    tailwind.config = {
+      theme: {
+        extend: {
+          colors: {
+            beigeMain: '#F4F0E8',
+            beigeLight: '#FAF7F2',
+            charcoal: '#171615',
+            charcoalDark: '#0D0C0C',
+            mutedGold: '#CDB182',
+            mutedGoldHover: '#B89B6C',
+          }
+        }
+      }
+    }
+  </script>
+  <style>
+    body {
+      background-color: #F4F0E8;
+      color: #171615;
+      font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, sans-serif;
+    }
+  </style>
+</head>
+<body class="bg-beigeMain text-charcoal antialiased">
+
+  <!-- NAVIGATION -->
+  <nav class="sticky top-0 z-50 bg-beigeMain/90 backdrop-blur-md border-b border-charcoal/10">
+    <div class="max-w-7xl mx-auto px-6 py-3 flex justify-between items-center">
+      <div class="flex items-center space-x-3">
+       <img src="assets/images/900 clear back.png" alt="The 900 Order Logo" class="h-10 w-auto object-contain" />
+        <span class="text-sm font-semibold tracking-[0.2em] text-mutedGold uppercase border-l border-charcoal/20 pl-3 hidden sm:inline-block">
+          The 900 Order
+        </span>
+      </div>
+      <div class="hidden md:flex space-x-8 text-xs font-bold tracking-widest uppercase">
+        <a href="#vision" class="hover:text-mutedGold transition">The Vision</a>
+        <a href="#pillars" class="hover:text-mutedGold transition">Pillars</a>
+        <a href="#who" class="hover:text-mutedGold transition">Eligibility</a>
+        <a href="#apply" class="hover:text-mutedGold transition">Apply</a>
+      </div>
+      <a href="#apply" class="bg-charcoal text-beigeMain text-xs font-bold tracking-widest uppercase px-5 py-2.5 rounded hover:bg-mutedGold hover:text-charcoal transition">
+        Apply Now
+      </a>
+    </div>
+  </nav>
+
+  <!-- HERO SECTION -->
+  <header class="bg-charcoal text-beigeMain py-20 px-6 relative overflow-hidden">
+    <div class="max-w-5xl mx-auto text-center relative z-10">
+      <div class="flex justify-center mb-6">
+       <img src="assets/images/900 clear back.png" alt="The 900 Order Logo" class="h-10 w-auto object-contain" />
+      </div>
+      <span class="text-mutedGold text-xs font-bold tracking-widest uppercase mb-4 inline-block">
+        900-Day Venture Accelerator
+      </span>
+      <h1 class="text-4xl md:text-6xl font-extrabold tracking-tight mb-6 leading-tight">
+        BUILDING VENTURES.<br />SCALING VISIONS.
+      </h1>
+      <p class="text-beigeMain/80 text-lg md:text-xl max-w-2xl mx-auto mb-10 leading-relaxed font-light">
+        An exclusive 900-day incubator order empowering the next generation of ambitious young founders to turn bold ideas into revenue-generating enterprises.
+      </p>
+      <div class="flex flex-col sm:flex-row justify-center gap-4">
+        <a href="#apply" class="bg-mutedGold text-charcoal text-sm font-bold tracking-widest uppercase px-8 py-4 rounded hover:bg-mutedGoldHover transition shadow-lg">
+          Commence Your Application
+        </a>
+        <a href="#vision" class="border border-beigeMain/30 text-beigeMain text-sm font-bold tracking-widest uppercase px-8 py-4 rounded hover:bg-beigeMain hover:text-charcoal transition">
+          Explore The Vision
+        </a>
+      </div>
+    </div>
+  </header>
+
+  <!-- THE 900-DAY MISSION -->
+  <section id="vision" class="py-20 px-6">
+    <div class="max-w-6xl mx-auto">
+      <div class="text-center mb-16">
+        <h2 class="text-xs font-bold tracking-widest text-mutedGold uppercase mb-2">The Survival & Scale Blueprint</h2>
+        <p class="text-3xl font-extrabold text-charcoal">The 1 - 9 - 90 - 900 Execution Framework</p>
+        <p class="text-charcoal/70 text-sm max-w-2xl mx-auto mt-3">
+          Most new enterprises fail within their first 1,000 days due to weak foundations. The 900 Order provides the structural architecture to ensure every venture survives, standardises, and scales.
+        </p>
+      </div>
+
+      <div class="grid md:grid-cols-4 gap-6">
+        <!-- Day 1 to 9 -->
+        <div class="bg-beigeLight p-6 rounded-lg border border-charcoal/10 shadow-sm flex flex-col justify-between">
+          <div>
+            <div class="text-mutedGold font-extrabold text-xs tracking-widest mb-2">DAYS 1 – 9</div>
+            <h3 class="text-lg font-bold text-charcoal mb-3">Ignition & Clarity</h3>
+            <p class="text-xs text-charcoal/80 leading-relaxed">
+              Rapid bottleneck diagnosis, defining core value propositions, and aligning founder vision with real market demand.
+            </p>
+          </div>
+          <div class="mt-4 pt-3 border-t border-charcoal/10 text-[10px] font-bold text-mutedGold uppercase tracking-wider">
+            Phase 01: Activation
+          </div>
+        </div>
+
+        <!-- Day 1 to 90 -->
+        <div class="bg-beigeLight p-6 rounded-lg border border-charcoal/10 shadow-sm flex flex-col justify-between">
+          <div>
+            <div class="text-mutedGold font-extrabold text-xs tracking-widest mb-2">DAYS 1 – 90</div>
+            <h3 class="text-lg font-bold text-charcoal mb-3">Validation & Intake</h3>
+            <p class="text-xs text-charcoal/80 leading-relaxed">
+              Establishing client intake channels, executing initial market testing, and securing early revenue traction.
+            </p>
+          </div>
+          <div class="mt-4 pt-3 border-t border-charcoal/10 text-[10px] font-bold text-mutedGold uppercase tracking-wider">
+            Phase 02: Traction
+          </div>
+        </div>
+
+        <!-- Day 1 to 900 -->
+        <div class="bg-beigeLight p-6 rounded-lg border border-charcoal/10 shadow-sm flex flex-col justify-between">
+          <div>
+            <div class="text-mutedGold font-extrabold text-xs tracking-widest mb-2">DAYS 1 – 900</div>
+            <h3 class="text-lg font-bold text-charcoal mb-3">Systems & Growth</h3>
+            <p class="text-xs text-charcoal/80 leading-relaxed">
+              Embedding automated workflows, standardising SOPs, and scaling operations to build a self-sustaining business.
+            </p>
+          </div>
+          <div class="mt-4 pt-3 border-t border-charcoal/10 text-[10px] font-bold text-mutedGold uppercase tracking-wider">
+            Phase 03: Scale
+          </div>
+        </div>
+
+        <!-- The 1000-Day Goal -->
+        <div class="bg-charcoal text-beigeMain p-6 rounded-lg border border-mutedGold/30 shadow-sm flex flex-col justify-between">
+          <div>
+            <div class="text-mutedGold font-extrabold text-xs tracking-widest mb-2">DAY 1000+</div>
+            <h3 class="text-lg font-bold text-beigeMain mb-3">Enterprise Resilience</h3>
+            <p class="text-xs text-beigeMain/80 leading-relaxed">
+              Outlasting the 1,000-day failure rate to stand as a mature, revenue-generating enterprise in the market.
+            </p>
+          </div>
+          <div class="mt-4 pt-3 border-t border-beigeMain/10 text-[10px] font-bold text-mutedGold uppercase tracking-wider">
+            Outcome: Survival & Dominance
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+<!-- FOUNDERS & THE 900 ORDER BOOK -->
+  <section id="book" class="bg-charcoal text-beigeMain py-20 px-6 border-t border-beigeMain/10">
+    <div class="max-w-6xl mx-auto">
+      <div class="grid md:grid-cols-2 gap-12 items-center">
+        
+        <!-- Founders Column -->
+        <div class="space-y-4">
+          <span class="text-xs font-bold tracking-widest text-mutedGold uppercase">Founding Leadership</span>
+          <h2 class="text-3xl font-extrabold text-beigeMain">Built by Africa’s Next Generation</h2>
+          <p class="text-sm text-beigeMain/80 leading-relaxed">
+            Founded in 2026 by siblings <strong class="text-beigeMain">Zanele Shamain Dube</strong> (20) and <strong class="text-beigeMain">Siyabonga Bryan Judah</strong> (19), <strong class="text-beigeMain">The 900 Order</strong> was born from a conviction that South Africa and the broader African continent possess unmatched potential.
+          </p>
+          <p class="text-sm text-beigeMain/80 leading-relaxed">
+            As young Black South African co-founders, Zanele and Siyabonga established the order to invest directly in themselves and young African founders across the continent—nurturing visionaries with the strategic discipline, systems, and guidance needed to build sustainable enterprises.
+          </p>
+        </div>
+
+        <!-- Book Column -->
+        <div class="bg-beigeMain text-charcoal p-8 rounded-lg border border-mutedGold/40 shadow-xl space-y-4">
+          <div class="flex items-center justify-between">
+            <span class="text-[10px] font-extrabold tracking-widest text-mutedGold uppercase bg-charcoal px-3 py-1 rounded">
+              Upcoming Publication
+            </span>
+            <span class="text-xs font-bold text-charcoal/60">Manuscript in Progress</span>
+          </div>
+          
+          <h3 class="text-2xl font-extrabold text-charcoal leading-snug">The 900 Order Book</h3>
+          <p class="text-xs text-charcoal/80 leading-relaxed">
+            A practical manuscript capturing the real-world journey, founder principles, and step-by-step strategies to launch, build, and succeed in business across Africa's dynamic landscape.
+          </p>
+
+          <ul class="space-y-2 text-xs font-medium text-charcoal/90 pt-2">
+            <li class="flex items-center gap-2">
+              <span class="text-mutedGold font-bold">•</span> Documenting the 1,000-day survival & growth playbook.
+            </li>
+            <li class="flex items-center gap-2">
+              <span class="text-mutedGold font-bold">•</span> Practical guidance on starting with limited capital and scaling.
+            </li>
+            <li class="flex items-center gap-2">
+              <span class="text-mutedGold font-bold">•</span> Cultivating high-performance discipline and entrepreneurial mindset.
+            </li>
+          </ul>
+        </div>
+
+      </div>
+    </div>
+  </section>
+  <!-- APPLICATION FORM SECTION -->
+  <section id="apply" class="bg-beigeLight py-20 px-6 border-t border-charcoal/10">
+    <div class="max-w-2xl mx-auto">
+      <div class="text-center mb-10">
+        <h2 class="text-xs font-bold tracking-widest text-mutedGold uppercase mb-2">Cohort Intake</h2>
+        <h3 class="text-3xl font-extrabold text-charcoal">Apply to Join The Order</h3>
+      </div>
+
+      <form action="https://api.web3forms.com/submit" method="POST" class="space-y-6 bg-beigeMain p-8 rounded-lg border border-charcoal/10 shadow-sm">
+  
+  <!-- Paste your Web3Forms Access Key below -->
+  <input type="hidden" name="access_key" value="e8c24b83-067e-4968-943d-4965ac13a281" />
+  
+  <!-- Email Subject Line -->
+  <input type="hidden" name="subject" value="New Application: The 900 Order Cohort Intake" />
+  
+  <!-- Portal Identification -->
+  <input type="hidden" name="from_name" value="The 900 Order Portal" />
+
+  <div class="grid md:grid-cols-2 gap-6">
+    <div>
+      <label class="block text-xs font-bold uppercase tracking-wider text-charcoal mb-2">Full Name</label>
+      <input type="text" name="name" required placeholder="Your name" class="w-full bg-beigeLight border border-charcoal/20 rounded px-4 py-3 text-sm focus:outline-none focus:border-mutedGold" />
+    </div>
+    <div>
+      <label class="block text-xs font-bold uppercase tracking-wider text-charcoal mb-2">Email Address</label>
+      <input type="email" name="email" required placeholder="name@domain.com" class="w-full bg-beigeLight border border-charcoal/20 rounded px-4 py-3 text-sm focus:outline-none focus:border-mutedGold" />
+    </div>
+  </div>
+
+  <div class="grid md:grid-cols-2 gap-6">
+    <div>
+      <label class="block text-xs font-bold uppercase tracking-wider text-charcoal mb-2">Phone / WhatsApp</label>
+      <input type="tel" name="phone" required placeholder="+27..." class="w-full bg-beigeLight border border-charcoal/20 rounded px-4 py-3 text-sm focus:outline-none focus:border-mutedGold" />
+    </div>
+    <div>
+      <label class="block text-xs font-bold uppercase tracking-wider text-charcoal mb-2">Industry / Sector</label>
+      <input type="text" name="industry" required placeholder="e.g. Tech, Retail, Services" class="w-full bg-beigeLight border border-charcoal/20 rounded px-4 py-3 text-sm focus:outline-none focus:border-mutedGold" />
+    </div>
+  </div>
+
+  <div>
+    <label class="block text-xs font-bold uppercase tracking-wider text-charcoal mb-2">Describe Your Vision & Enterprise Idea</label>
+    <textarea name="vision_and_idea" rows="4" required placeholder="Tell us what you are building and where you want to take it over the next 900 days..." class="w-full bg-beigeLight border border-charcoal/20 rounded px-4 py-3 text-sm focus:outline-none focus:border-mutedGold"></textarea>
+  </div>
+
+  <button type="submit" class="w-full bg-charcoal text-beigeMain text-xs font-bold tracking-widest uppercase py-4 rounded hover:bg-mutedGold hover:text-charcoal transition">
+    Submit Founder Application
+  </button>
+</form>
+    </div>
+  </section>
+
+  <!-- FOOTER -->
+  <footer class="bg-charcoalDark text-beigeMain/60 py-8 px-6 text-center text-xs border-t border-beigeMain/10">
+    <div class="max-w-6xl mx-auto flex flex-col md:flex-row justify-between items-center gap-4">
+      <p>© 2026 The 900 Order. All rights reserved.</p>
+      <p>Powered by <span class="text-beigeMain font-semibold">Precision Point Advisory</span></p>
+    </div>
+  </footer>
+
+</body>
+</html>
