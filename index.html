@@ -36,7 +36,7 @@
   <nav class="sticky top-0 z-50 bg-beigeMain/90 backdrop-blur-md border-b border-charcoal/10">
     <div class="max-w-7xl mx-auto px-6 py-3 flex justify-between items-center">
       <div class="flex items-center space-x-3">
-       <img src="900 clear back.png" alt="The 900 Order Logo">
+        <img src="900%20clear%20back.png" alt="The 900 Order Logo" class="h-10 w-auto object-contain">
         <span class="text-sm font-semibold tracking-[0.2em] text-mutedGold uppercase border-l border-charcoal/20 pl-3 hidden sm:inline-block">
           The 900 Order
         </span>
@@ -57,7 +57,7 @@
   <header class="bg-charcoal text-beigeMain py-20 px-6 relative overflow-hidden">
     <div class="max-w-5xl mx-auto text-center relative z-10">
       <div class="flex justify-center mb-6">
-      <img src="900 clear back.png" alt="The 900 Order Logo">
+        <img src="900%20clear%20back.png" alt="The 900 Order Logo" class="h-24 w-auto object-contain">
       </div>
       <span class="text-mutedGold text-xs font-bold tracking-widest uppercase mb-4 inline-block">
         900-Day Venture Accelerator
@@ -149,7 +149,8 @@
       </div>
     </div>
   </section>
-<!-- FOUNDERS & THE 900 ORDER BOOK -->
+
+  <!-- FOUNDERS & THE 900 ORDER BOOK -->
   <section id="book" class="bg-charcoal text-beigeMain py-20 px-6 border-t border-beigeMain/10">
     <div class="max-w-6xl mx-auto">
       <div class="grid md:grid-cols-2 gap-12 items-center">
@@ -196,6 +197,7 @@
       </div>
     </div>
   </section>
+
   <!-- APPLICATION FORM SECTION -->
   <section id="apply" class="bg-beigeLight py-20 px-6 border-t border-charcoal/10">
     <div class="max-w-2xl mx-auto">
@@ -205,47 +207,41 @@
       </div>
 
       <form action="https://api.web3forms.com/submit" method="POST" class="space-y-6 bg-beigeMain p-8 rounded-lg border border-charcoal/10 shadow-sm">
-  
-  <!-- Paste your Web3Forms Access Key below -->
-  <input type="hidden" name="access_key" value="e8c24b83-067e-4968-943d-4965ac13a281" />
-  
-  <!-- Email Subject Line -->
-  <input type="hidden" name="subject" value="New Application: The 900 Order Cohort Intake" />
-  
-  <!-- Portal Identification -->
-  <input type="hidden" name="from_name" value="The 900 Order Portal" />
+        <input type="hidden" name="access_key" value="e8c24b83-067e-4968-943d-4965ac13a281" />
+        <input type="hidden" name="subject" value="New Application: The 900 Order Cohort Intake" />
+        <input type="hidden" name="from_name" value="The 900 Order Portal" />
 
-  <div class="grid md:grid-cols-2 gap-6">
-    <div>
-      <label class="block text-xs font-bold uppercase tracking-wider text-charcoal mb-2">Full Name</label>
-      <input type="text" name="name" required placeholder="Your name" class="w-full bg-beigeLight border border-charcoal/20 rounded px-4 py-3 text-sm focus:outline-none focus:border-mutedGold" />
-    </div>
-    <div>
-      <label class="block text-xs font-bold uppercase tracking-wider text-charcoal mb-2">Email Address</label>
-      <input type="email" name="email" required placeholder="name@domain.com" class="w-full bg-beigeLight border border-charcoal/20 rounded px-4 py-3 text-sm focus:outline-none focus:border-mutedGold" />
-    </div>
-  </div>
+        <div class="grid md:grid-cols-2 gap-6">
+          <div>
+            <label class="block text-xs font-bold uppercase tracking-wider text-charcoal mb-2">Full Name</label>
+            <input type="text" name="name" required placeholder="Your name" class="w-full bg-beigeLight border border-charcoal/20 rounded px-4 py-3 text-sm focus:outline-none focus:border-mutedGold" />
+          </div>
+          <div>
+            <label class="block text-xs font-bold uppercase tracking-wider text-charcoal mb-2">Email Address</label>
+            <input type="email" name="email" required placeholder="name@domain.com" class="w-full bg-beigeLight border border-charcoal/20 rounded px-4 py-3 text-sm focus:outline-none focus:border-mutedGold" />
+          </div>
+        </div>
 
-  <div class="grid md:grid-cols-2 gap-6">
-    <div>
-      <label class="block text-xs font-bold uppercase tracking-wider text-charcoal mb-2">Phone / WhatsApp</label>
-      <input type="tel" name="phone" required placeholder="+27..." class="w-full bg-beigeLight border border-charcoal/20 rounded px-4 py-3 text-sm focus:outline-none focus:border-mutedGold" />
-    </div>
-    <div>
-      <label class="block text-xs font-bold uppercase tracking-wider text-charcoal mb-2">Industry / Sector</label>
-      <input type="text" name="industry" required placeholder="e.g. Tech, Retail, Services" class="w-full bg-beigeLight border border-charcoal/20 rounded px-4 py-3 text-sm focus:outline-none focus:border-mutedGold" />
-    </div>
-  </div>
+        <div class="grid md:grid-cols-2 gap-6">
+          <div>
+            <label class="block text-xs font-bold uppercase tracking-wider text-charcoal mb-2">Phone / WhatsApp</label>
+            <input type="tel" name="phone" required placeholder="+27..." class="w-full bg-beigeLight border border-charcoal/20 rounded px-4 py-3 text-sm focus:outline-none focus:border-mutedGold" />
+          </div>
+          <div>
+            <label class="block text-xs font-bold uppercase tracking-wider text-charcoal mb-2">Industry / Sector</label>
+            <input type="text" name="industry" required placeholder="e.g. Tech, Retail, Services" class="w-full bg-beigeLight border border-charcoal/20 rounded px-4 py-3 text-sm focus:outline-none focus:border-mutedGold" />
+          </div>
+        </div>
 
-  <div>
-    <label class="block text-xs font-bold uppercase tracking-wider text-charcoal mb-2">Describe Your Vision & Enterprise Idea</label>
-    <textarea name="vision_and_idea" rows="4" required placeholder="Tell us what you are building and where you want to take it over the next 900 days..." class="w-full bg-beigeLight border border-charcoal/20 rounded px-4 py-3 text-sm focus:outline-none focus:border-mutedGold"></textarea>
-  </div>
+        <div>
+          <label class="block text-xs font-bold uppercase tracking-wider text-charcoal mb-2">Describe Your Vision & Enterprise Idea</label>
+          <textarea name="vision_and_idea" rows="4" required placeholder="Tell us what you are building and where you want to take it over the next 900 days..." class="w-full bg-beigeLight border border-charcoal/20 rounded px-4 py-3 text-sm focus:outline-none focus:border-mutedGold"></textarea>
+        </div>
 
-  <button type="submit" class="w-full bg-charcoal text-beigeMain text-xs font-bold tracking-widest uppercase py-4 rounded hover:bg-mutedGold hover:text-charcoal transition">
-    Submit Founder Application
-  </button>
-</form>
+        <button type="submit" class="w-full bg-charcoal text-beigeMain text-xs font-bold tracking-widest uppercase py-4 rounded hover:bg-mutedGold hover:text-charcoal transition">
+          Submit Founder Application
+        </button>
+      </form>
     </div>
   </section>
 
